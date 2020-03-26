@@ -4,13 +4,13 @@
 Dokumentacja projektowa (LibraryDB - biblioteka)
 
 ## 1.	Założenia projektowe
-###1.1.	Cel biznesowy
+### 1.1.	Cel biznesowy
 
 Celem aplikacji jest dostarczenie informacji o przepływie (wypożyczeniach i zwrotach) książek, wykaz czytelników oraz pracowników biblioteki (wraz z danymi dostępowymi do platformy bibliotecznej oraz adresowymi), klasyfikacja zalistowanych książek po ich gatunkach oraz wydawnictwie. Identyfikatory (nazwy zmiennych, funkcji) są w języku angielskim.
 
 
 
-###1.2.	Wymagania funkcjonalne (główne realizowane funkcje)
+### 1.2.	Wymagania funkcjonalne (główne realizowane funkcje)
 
 *	pracownik biblioteki może wydać/przyjąć książkę
 *	czytelnik może wypożyczyć książkę
@@ -18,7 +18,7 @@ Celem aplikacji jest dostarczenie informacji o przepływie (wypożyczeniach i zw
 *	pracownik może dodać nową książkę do zbioru bibliotecznego
 
 
-###1.3.	Wymagania niefunkcjonalne (np. potencjalne założenia co do ilości danych, wydajności, dostępności)
+### 1.3.	Wymagania niefunkcjonalne (np. potencjalne założenia co do ilości danych, wydajności, dostępności)
 
 * baza biblioteki nie ma limitu zalistowanych książek
 * pracownicy bibiloteki mają wgląd jedynie do wymaganych danych (RODO)
@@ -26,13 +26,13 @@ Celem aplikacji jest dostarczenie informacji o przepływie (wypożyczeniach i zw
 
 
 
-###1.4.	zdefiniowanie użytkowników
+### 1.4.	zdefiniowanie użytkowników
 *	rola 1 – kierownik biblioteki
 *	rola 2 – dział obsługi klienta
 *	rola 3 – czytelnik
 
 
-###1.5.	opis przykładowych scenariusza użycia (dla zdefiniowanych użytkowników)
+### 1.5.	opis przykładowych scenariusza użycia (dla zdefiniowanych użytkowników)
 *	kierownik ma uprawnienia administratora bazy
 *	różni pracownicy mogą wydać oraz przyjąć książkę
 *	czytelnik może wypożyczyć każdą dostępną książkę
@@ -43,8 +43,8 @@ Celem aplikacji jest dostarczenie informacji o przepływie (wypożyczeniach i zw
 
 
 
-##2.	Opis modelu danych
-###2.1.	Diagram ERD
+## 2.	Opis modelu danych
+### 2.1.	Diagram ERD
 
 
 ![](Images/1.png)
@@ -52,7 +52,7 @@ Celem aplikacji jest dostarczenie informacji o przepływie (wypożyczeniach i zw
 ![](Images/2.png)
 
 
-###2.2.	Lista tabel wraz z dokładnym opisem typów i znaczenia danych; opis tabeli w formacie: nazwa kolumny, typ danych, opis (znaczenie na poziomie biznesowym i technicznym, np. znaczenie skrótów)
+### 2.2.	Lista tabel wraz z dokładnym opisem typów i znaczenia danych; opis tabeli w formacie: nazwa kolumny, typ danych, opis (znaczenie na poziomie biznesowym i technicznym, np. znaczenie skrótów)
 
 __*Categories*__ (zawiera gatunki książek)
 * Id_category – obowiązkowe, klucz główny, liczba całkowita
