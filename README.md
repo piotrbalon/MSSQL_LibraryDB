@@ -43,7 +43,7 @@ Celem aplikacji jest dostarczenie informacji o przepływie (wypożyczeniach i zw
 
 
 
-##2.	Opis modelu danych
+## 2.	Opis modelu danych
 ### 2.1.	Diagram ERD
 
 
